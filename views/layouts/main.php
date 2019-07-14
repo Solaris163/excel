@@ -38,9 +38,10 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/upload']],
+            ['label' => 'Главная', 'url' => ['/upload']],
             ['label' => 'Показать таблицу', 'url' => ['/show']],
             ['label' => 'Очистить таблицу', 'url' => ['/upload/delete']],
+            ['label' => 'Скачать себе тестовый csv файл', 'url' => ['/goods.csv']],
         ],
     ]);
     NavBar::end();

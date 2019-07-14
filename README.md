@@ -1,3 +1,14 @@
+<h3>Это небольшой проект на Yii2 basic</h3>
+<h4>На главной странице есть форма для загрузки excel файла с товарами в формате csv.
+ После загрузки файла, информация из него попадает в базу данных MySQL и выводится на
+ странице в виде таблицы GridView</h4>
+<h5>
+    Что сделано:<br>
+    Созданы две модели ActiveRecord: Goods и File для работы с базой и загрузки файлов.<br>
+    Созданы два контроллера: UploadController и ShowController для загрузки файлов и для
+    отображения страницы с данными товаров.
+</h5>
+
 <p align="center">
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
