@@ -6,6 +6,6 @@ use \yii\widgets\ActiveForm;
 echo "<div>";
 $form = ActiveForm::begin(['action' => 'upload/upload']);
 echo $form->field($file, 'upload')->fileInput()->label('Загрузить файл csv');
-echo \yii\helpers\Html::submitButton(\Yii::t("app", "upload"), ['class' => 'btn btn-success form-group col-lg-2']);
+echo \yii\helpers\Html::submitButton(\Yii::t("app", "Загрузить"), ['class' => 'btn btn-success form-group col-lg-2']);
 ActiveForm::end();
 echo "</div>";
